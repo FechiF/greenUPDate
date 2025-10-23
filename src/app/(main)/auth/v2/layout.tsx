@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 
-import { Command } from "lucide-react";
-
+import Logo from "@/components/ui/Logo";
 import { Separator } from "@/components/ui/separator";
 import { APP_CONFIG } from "@/config/app-config";
 
@@ -11,9 +10,11 @@ export default function Layout({ children }: Readonly<{ children: ReactNode }>) 
       <div className="grid h-dvh justify-center p-2 lg:grid-cols-2">
         <div className="bg-primary relative order-2 hidden h-full rounded-3xl lg:flex">
           <div className="text-primary-foreground absolute top-10 space-y-1 px-10">
-            <Command className="size-10" />
-            <h1 className="text-2xl font-medium">{APP_CONFIG.name}</h1>
-            <p className="text-sm">Design. Build. Launch. Repeat.</p>
+            <div className="justify-left flex items-center gap-3">
+              <Logo />
+              <span className="text-base">{APP_CONFIG.name}</span>
+            </div>
+            <p className="text-sm">Connecting data, people, and purpose for a sustainable and resilient campus.</p>
           </div>
 
           <div className="absolute bottom-10 flex w-full justify-between px-10">

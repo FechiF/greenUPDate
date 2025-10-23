@@ -20,16 +20,32 @@ export const THEME_PRESET_OPTIONS = [
     label: "Default",
     value: "default",
     primary: {
-      light: "oklch(0.205 0 0)",
-      dark: "oklch(0.922 0 0)",
+      light: "#5c7947",
+      dark: "",
     },
   },
   {
-    label: "Brutalist",
-    value: "brutalist",
+    label: "DarkGreen",
+    value: "darkgreen",
     primary: {
-      light: "oklch(0.6489 0.2370 26.9728)",
-      dark: "oklch(0.7044 0.1872 23.1858)",
+      light: "#334332",
+      dark: "#334332",
+    },
+  },
+  {
+    label: "Tangerine",
+    value: "tangerine",
+    primary: {
+      light: "#5c7947",
+      dark: "#5c7947",
+    },
+  },
+  {
+    label: "Maroon",
+    value: "maroon",
+    primary: {
+      light: "#7b1113",
+      dark: "#7b1113",
     },
   },
   {
@@ -38,6 +54,14 @@ export const THEME_PRESET_OPTIONS = [
     primary: {
       light: "oklch(0.5106 0.2301 276.9656)",
       dark: "oklch(0.6801 0.1583 276.9349)",
+    },
+  },
+  {
+    label: "Tangerine",
+    value: "tangerine",
+    primary: {
+      light: "oklch(0.64 0.17 36.44)",
+      dark: "oklch(0.64 0.17 36.44)",
     },
   },
   {

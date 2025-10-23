@@ -31,9 +31,7 @@ interface NavMainProps {
   readonly items: readonly NavGroup[];
 }
 
-const IsComingSoon = () => (
-  <span className="ml-auto rounded-md bg-gray-200 px-2 py-1 text-xs dark:text-gray-800">Soon</span>
-);
+const IsComingSoon = () => <span className="bg-ring ml-auto rounded-md px-2 py-1 text-xs">Soon</span>;
 
 const NavItemExpanded = ({
   item,
@@ -171,8 +169,8 @@ export function NavMain({ items }: NavMainProps) {
               </SidebarMenuButton>
               <Button
                 size="icon"
-                className="h-9 w-9 shrink-0 group-data-[collapsible=icon]:opacity-0"
-                variant="outline"
+                className="bg-secondary-foreground dark:bg-primary text-border dark:text-primary-foreground h-9 w-9 shrink-0 group-data-[collapsible=icon]:opacity-0"
+                variant="default"
               >
                 <MailIcon />
                 <span className="sr-only">Inbox</span>

@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { Settings, CircleHelp, Search, Database, ClipboardList, File, Command } from "lucide-react";
 
+import Logo from "@/components/ui/Logo";
 import {
   Sidebar,
   SidebarContent,
@@ -65,7 +66,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <SidebarMenuButton asChild className="data-[slot=sidebar-menu-button]:!p-1.5">
               <Link href="/dashboard/default">
-                <Command />
+                <Logo />
                 <span className="text-base font-semibold">{APP_CONFIG.name}</span>
               </Link>
             </SidebarMenuButton>

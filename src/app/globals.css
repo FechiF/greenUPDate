@@ -2,7 +2,8 @@
 @import "tw-animate-css";
 
 /* Theme preset styles: these override CSS variables based on the selected data-theme-preset */
-@import "../styles/presets/brutalist.css";
+@import "../styles/presets/darkgreen.css";
+@import "../styles/presets/maroon.css";
 @import "../styles/presets/soft-pop.css";
 @import "../styles/presets/tangerine.css";
 
@@ -50,71 +51,130 @@
 These serve as the fallback; there is no separate default.css file. */
 :root {
   --radius: 0.625rem;
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.3211 0 0);
-  --chart-2: oklch(0.4495 0 0);
-  --chart-3: oklch(0.5693 0 0);
-  --chart-4: oklch(0.6830 0 0);
-  --chart-5: oklch(0.7921 0 0);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --radius: 0.625rem;
+
+  --card: #ffffff;
+  --card-foreground: #5c7947;
+
+  --popover: #f5f3ea;
+  --popover-foreground: #5e563d;
+
+  --primary: #5c7947;
+  --primary-foreground: #f5f3ea;
+
+  --secondary: #f5f3ea;
+  --secondary-foreground: #7b1113;
+
+  --muted: #f5f3ea;
+  --muted-foreground: #ada48b;
+
+  --accent: #ffd75f;
+  --accent-foreground: #3e3f3f;
+
+  --destructive: #e7000b;
+
+  --border: #d6c8a6;
+  --input: #d6c8a6;
+  --ring: #334332;
+
+  --chart-1: #5c7947;
+  --chart-2: #7b1113;
+  --chart-3: #ffd75f;
+  --chart-4: #c4b487;
+  --chart-5: #d1d3d4;
+  --chart-6: #7b1113;
+  --chart-7: #938b77;
+  --chart-8: #ece8d9;
+  --chart-9: #87875a;
+  --chart-10: #b7c5b7;
+  --chart-11: #acbe74;
+  --chart-12: #665b63;
+
+  --sidebar: #5c7947;
+  --sidebar-foreground: #f5f3ea;
+  --sidebar-primary: #f5f3ea;
+  --sidebar-primary-foreground: #f5f3ea;
+  --sidebar-accent: #b9d3a5;
+  --sidebar-accent-foreground: #3e3f3f;
+  --sidebar-border: #f5f3ea;
+  --sidebar-ring: #fff;
+
+  --background: #f5f3ea;
+  --foreground: #3e3f3f;
+
+  /* Shadows (soft, natural look) */
+  --shadow-2xs: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  --shadow-xs: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 8px 10px -1px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.9521 0 0);
-  --chart-2: oklch(0.8576 0 0);
-  --chart-3: oklch(0.7572 0 0);
-  --chart-4: oklch(0.6534 0 0);
-  --chart-5: oklch(0.5452 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+.dark:root {
+  --radius: 0.625rem;
+  --radius: 0.625rem;
+
+  --card: #293321;
+  --card-foreground: #cbdac1;
+
+  --popover: #5e563d;
+  --popover-foreground: #f5f3ea;
+
+  --primary: #5c7947;
+  --primary-foreground: #f5f3ea;
+
+  --secondary: #ada48b;
+  --secondary-foreground: #332f27;
+
+  --muted: #332f27;
+  --muted-foreground: #b6ab8f;
+
+  --accent: #ffd75f;
+  --accent-foreground: #3e3f3f;
+
+  --destructive: #fd525b;
+
+  --border: #665f50;
+  --input: #f5f3ea;
+  --ring: #272824;
+
+  --chart-1: #5c7947;
+  --chart-2: #ffd75f;
+  --chart-3: #c4b487;
+  --chart-4: #7b1113;
+  --chart-5: #d1d3d4;
+  --chart-6: #7b1113;
+  --chart-7: #938b77;
+  --chart-8: #ece8d9;
+  --chart-9: #87875a;
+  --chart-10: #b7c5b7;
+  --chart-11: #acbe74;
+  --chart-12: #665b63;
+
+  --sidebar: #293321;
+  --sidebar-foreground: #b7c5b7;
+  --sidebar-primary: #272824;
+  --sidebar-primary-foreground: #b7c5b7;
+  --sidebar-accent: #5c7947;
+  --sidebar-accent-foreground: #f5f3ea;
+  --sidebar-border: #f5f3ea;
+  --sidebar-ring: #fff;
+
+  --background: #20201a;
+  --foreground: #f5f3ea;
+
+  /* Shadows (neutral) */
+  --shadow-2xs: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  --shadow-xs: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 8px 10px -1px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
 @layer utilities {
