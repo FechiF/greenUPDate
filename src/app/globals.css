@@ -45,6 +45,8 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --font-body: var(--font-inter);
+  --font-heading: var(--font-dmserif);
 }
 
 /* Default theme styles (used when no data-theme-preset is set or when 'default' is selected).
@@ -66,7 +68,7 @@ These serve as the fallback; there is no separate default.css file. */
   --secondary-foreground: #7b1113;
 
   --muted: #f5f3ea;
-  --muted-foreground: #ada48b;
+  --muted-foreground: #8a816b;
 
   --accent: #ffd75f;
   --accent-foreground: #3e3f3f;
@@ -217,7 +219,11 @@ These serve as the fallback; there is no separate default.css file. */
   }
 
   body {
-    @apply bg-background text-foreground overscroll-none;
+    @apply bg-background text-foreground font-body overscroll-none;
+  }
+
+  [data-slot="card-title"] {
+    @apply font-heading text-[1.4rem] font-normal tracking-wider;
   }
 }
 

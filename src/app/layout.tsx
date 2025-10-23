@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, DM_Serif_Display } from "next/font/google";
 
 import { Toaster } from "@/components/ui/sonner";
 import { APP_CONFIG } from "@/config/app-config";
@@ -11,7 +11,15 @@ import { THEME_MODE_VALUES, THEME_PRESET_VALUES, type ThemePreset, type ThemeMod
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+
+const dmserif = DM_Serif_Display({
+  weight: "400",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-dmserif",
+});
 
 export const metadata: Metadata = {
   title: APP_CONFIG.meta.title,
@@ -25,7 +33,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
   return (
     <html
       lang="en"
-      className={themeMode === "dark" ? "dark" : ""}
+      className={`${inter.variable} ${dmserif.variable} ${themeMode === "dark" ? "dark" : ""}`}
       data-theme-preset={themePreset}
       suppressHydrationWarning
     >
