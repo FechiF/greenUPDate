@@ -119,7 +119,7 @@ These serve as the fallback; there is no separate default.css file. */
   --radius: 0.625rem;
   --radius: 0.625rem;
 
-  --card: #343e2c;
+  --card: #37473b;
   --card-foreground: #cbdac1;
 
   --popover: #5e563d;
@@ -143,7 +143,7 @@ These serve as the fallback; there is no separate default.css file. */
   --input: #f5f3ea;
   --ring: #272824;
 
-  --chart-1: #5c7947;
+  --chart-1: #7ab352;
   --chart-2: #ffd75f;
   --chart-3: #c4b487;
   --chart-4: #7b1113;
@@ -156,16 +156,16 @@ These serve as the fallback; there is no separate default.css file. */
   --chart-11: #acbe74;
   --chart-12: #665b63;
 
-  --sidebar: #343e2c;
+  --sidebar: #37473b;
   --sidebar-foreground: #b7c5b7;
   --sidebar-primary: #272824;
   --sidebar-primary-foreground: #b7c5b7;
   --sidebar-accent: #5c7947;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #293321;
+  --sidebar-border: #37473b;
   --sidebar-ring: #fff;
 
-  --background: #1d241d;
+  --background: #28332a;
   --foreground: #f5f3ea;
 
   /* Shadows (neutral) */

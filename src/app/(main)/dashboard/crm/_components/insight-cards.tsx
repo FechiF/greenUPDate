@@ -119,13 +119,13 @@ export function InsightCards() {
                   dataKey="name"
                   position="insideLeft"
                   offset={8}
-                  className="fill-primary-foreground text-xs"
+                  className="fill-primary-foreground dark:fill-background text-xs"
                 />
                 <LabelList
                   dataKey="actual"
                   position="insideRight"
                   offset={8}
-                  className="fill-primary-foreground text-xs tabular-nums"
+                  className="fill-primary-foreground dark:fill-background text-xs tabular-nums"
                 />
               </Bar>
               <Bar
@@ -139,7 +139,7 @@ export function InsightCards() {
                   dataKey="remaining"
                   position="insideRight"
                   offset={8}
-                  className="fill-primary-foreground text-xs tabular-nums"
+                  className="fill-primary-foreground dark:fill-background text-xs tabular-nums"
                 />
               </Bar>
             </BarChart>

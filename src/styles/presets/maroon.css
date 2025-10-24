@@ -68,15 +68,14 @@ value: maroon
 
 .dark:root[data-theme-preset="maroon"] {
   --radius: 0.625rem;
-  --radius: 0.625rem;
 
-  --card: #293321;
+  --card: #32353b;
   --card-foreground: #cbdac1;
 
   --popover: #5e563d;
   --popover-foreground: #f5f3ea;
 
-  --primary: #7b1113;
+  --primary: #5c7947;
   --primary-foreground: #f5f3ea;
 
   --secondary: #ada48b;
@@ -94,7 +93,7 @@ value: maroon
   --input: #f5f3ea;
   --ring: #272824;
 
-  --chart-1: #7b1113;
+  --chart-1: #5c7947;
   --chart-2: #ffd75f;
   --chart-3: #c4b487;
   --chart-4: #7b1113;
@@ -107,16 +106,16 @@ value: maroon
   --chart-11: #acbe74;
   --chart-12: #665b63;
 
-  --sidebar: #293321;
+  --sidebar: #32353b;
   --sidebar-foreground: #b7c5b7;
   --sidebar-primary: #272824;
   --sidebar-primary-foreground: #b7c5b7;
-  --sidebar-accent: #7b1113;
+  --sidebar-accent: #5c7947;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #293321;
+  --sidebar-border: #32353b;
   --sidebar-ring: #fff;
 
-  --background: #20201a;
+  --background: #292a2c;
   --foreground: #f5f3ea;
 
   /* Shadows (neutral) */

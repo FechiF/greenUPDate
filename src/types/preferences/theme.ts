@@ -29,7 +29,7 @@ export const THEME_PRESET_OPTIONS = [
     value: "darkgreen",
     primary: {
       light: "#334332",
-      dark: "#334332",
+      dark: "#5c7947",
     },
   },
   {
@@ -37,7 +37,7 @@ export const THEME_PRESET_OPTIONS = [
     value: "maroon",
     primary: {
       light: "#7b1113",
-      dark: "#7b1113",
+      dark: "#5c7947",
     },
   },
   {
