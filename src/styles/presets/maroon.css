@@ -9,7 +9,7 @@ value: maroon
   --card: #ffffff;
   --card-foreground: #7b1113;
 
-  --popover: #f5f3ea;
+  --popover: #ffffff;
   --popover-foreground: #5e563d;
 
   --primary: #7b1113;
@@ -49,7 +49,7 @@ value: maroon
   --sidebar-primary-foreground: #f5f3ea;
   --sidebar-accent: #040315;
   --sidebar-accent-foreground: #d1d3d4;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #7b1113;
   --sidebar-ring: #fff;
 
   --background: #f5f3ea;
@@ -113,7 +113,7 @@ value: maroon
   --sidebar-primary-foreground: #b7c5b7;
   --sidebar-accent: #7b1113;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #293321;
   --sidebar-ring: #fff;
 
   --background: #20201a;

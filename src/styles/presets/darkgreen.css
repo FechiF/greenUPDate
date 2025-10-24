@@ -9,7 +9,7 @@ value: darkgreen
   --card: #ffffff;
   --card-foreground: #334332;
 
-  --popover: #f5f3ea;
+  --popover: #ffffff;
   --popover-foreground: #5e563d;
 
   --primary: #334332;
@@ -49,7 +49,7 @@ value: darkgreen
   --sidebar-primary-foreground: #f5f3ea;
   --sidebar-accent: #b9d3a5;
   --sidebar-accent-foreground: #3e3f3f;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #334332;
   --sidebar-ring: #fff;
 
   --background: #f5f3ea;
@@ -113,7 +113,7 @@ value: darkgreen
   --sidebar-primary-foreground: #b7c5b7;
   --sidebar-accent: #334332;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #293321;
   --sidebar-ring: #fff;
 
   --background: #20201a;

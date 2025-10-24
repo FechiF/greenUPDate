@@ -58,7 +58,7 @@ These serve as the fallback; there is no separate default.css file. */
   --card: #ffffff;
   --card-foreground: #5c7947;
 
-  --popover: #f5f3ea;
+  --popover: #ffffff;
   --popover-foreground: #5e563d;
 
   --primary: #5c7947;
@@ -98,7 +98,7 @@ These serve as the fallback; there is no separate default.css file. */
   --sidebar-primary-foreground: #f5f3ea;
   --sidebar-accent: #b9d3a5;
   --sidebar-accent-foreground: #3e3f3f;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #5c7947;
   --sidebar-ring: #fff;
 
   --background: #f5f3ea;
@@ -119,7 +119,7 @@ These serve as the fallback; there is no separate default.css file. */
   --radius: 0.625rem;
   --radius: 0.625rem;
 
-  --card: #293321;
+  --card: #343e2c;
   --card-foreground: #cbdac1;
 
   --popover: #5e563d;
@@ -156,16 +156,16 @@ These serve as the fallback; there is no separate default.css file. */
   --chart-11: #acbe74;
   --chart-12: #665b63;
 
-  --sidebar: #293321;
+  --sidebar: #343e2c;
   --sidebar-foreground: #b7c5b7;
   --sidebar-primary: #272824;
   --sidebar-primary-foreground: #b7c5b7;
   --sidebar-accent: #5c7947;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #f5f3ea;
+  --sidebar-border: #293321;
   --sidebar-ring: #fff;
 
-  --background: #20201a;
+  --background: #1d241d;
   --foreground: #f5f3ea;
 
   /* Shadows (neutral) */
@@ -222,8 +222,14 @@ These serve as the fallback; there is no separate default.css file. */
     @apply bg-background text-foreground font-body overscroll-none;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
   [data-slot="card-title"] {
-    @apply font-heading text-[1.4rem] font-normal tracking-wider;
+    @apply font-heading;
   }
 }
 

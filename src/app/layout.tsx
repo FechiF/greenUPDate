@@ -17,7 +17,6 @@ const dmserif = DM_Serif_Display({
   weight: "400",
   subsets: ["latin"],
   style: ["normal", "italic"],
-  display: "swap",
   variable: "--font-dmserif",
 });
 
