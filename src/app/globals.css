@@ -75,7 +75,7 @@ These serve as the fallback; there is no separate default.css file. */
 
   --destructive: #e7000b;
 
-  --border: #d6c8a6;
+  --border: #e9dcbd;
   --input: #d6c8a6;
   --ring: #334332;
 
@@ -120,10 +120,10 @@ These serve as the fallback; there is no separate default.css file. */
   --radius: 0.625rem;
 
   --card: #37473b;
-  --card-foreground: #cbdac1;
+  --card-foreground: #eeeed7;
 
-  --popover: #5e563d;
-  --popover-foreground: #f5f3ea;
+  --popover: #37473b;
+  --popover-foreground: #ffdfc8;
 
   --primary: #5c7947;
   --primary-foreground: #f5f3ea;
@@ -143,26 +143,26 @@ These serve as the fallback; there is no separate default.css file. */
   --input: #f5f3ea;
   --ring: #272824;
 
-  --chart-1: #7ab352;
-  --chart-2: #ffd75f;
-  --chart-3: #c4b487;
-  --chart-4: #7b1113;
-  --chart-5: #d1d3d4;
+  --chart-1: #a09f67;
+  --chart-2: #7b1113;
+  --chart-3: #ffd75f;
+  --chart-4: #5c7947;
+  --chart-5: #84ac7a;
+  --chart-7: #c4b487;
   --chart-6: #7b1113;
-  --chart-7: #938b77;
   --chart-8: #ece8d9;
   --chart-9: #87875a;
   --chart-10: #b7c5b7;
   --chart-11: #acbe74;
   --chart-12: #665b63;
 
-  --sidebar: #37473b;
+  --sidebar: #212622;
   --sidebar-foreground: #b7c5b7;
   --sidebar-primary: #272824;
   --sidebar-primary-foreground: #b7c5b7;
   --sidebar-accent: #5c7947;
   --sidebar-accent-foreground: #f5f3ea;
-  --sidebar-border: #37473b;
+  --sidebar-border: #212622;
   --sidebar-ring: #fff;
 
   --background: #28332a;
@@ -180,35 +180,35 @@ These serve as the fallback; there is no separate default.css file. */
 }
 
 @layer utilities {
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-2xs {
+  [data-theme-preset] .shadow-2xs {
     box-shadow: var(--shadow-2xs);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-xs {
+  [data-theme-preset] .shadow-xs {
     box-shadow: var(--shadow-xs);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-sm {
+  [data-theme-preset] .shadow-sm {
     box-shadow: var(--shadow-sm);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow {
+  [data-theme-preset] .shadow {
     box-shadow: var(--shadow);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-md {
+  [data-theme-preset] .shadow-md {
     box-shadow: var(--shadow-md);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-lg {
+  [data-theme-preset] .shadow-lg {
     box-shadow: var(--shadow-lg);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-xl {
+  [data-theme-preset] .shadow-xl {
     box-shadow: var(--shadow-xl);
   }
 
-  [data-theme-preset]:not([data-theme-preset="default"]) .shadow-2xl {
+  [data-theme-preset] .shadow-2xl {
     box-shadow: var(--shadow-2xl);
   }
 }
@@ -229,7 +229,7 @@ These serve as the fallback; there is no separate default.css file. */
   h5,
   h6,
   [data-slot="card-title"] {
-    @apply font-heading;
+    @apply font-heading dark:tracking-[.5px];
   }
 }
 
