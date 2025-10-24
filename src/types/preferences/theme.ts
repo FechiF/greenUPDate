@@ -33,14 +33,6 @@ export const THEME_PRESET_OPTIONS = [
     },
   },
   {
-    label: "Maroon",
-    value: "maroon",
-    primary: {
-      light: "#7b1113",
-      dark: "#5c7947",
-    },
-  },
-  {
     label: "Soft Pop",
     value: "soft-pop",
     primary: {

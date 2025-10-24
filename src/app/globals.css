@@ -3,7 +3,6 @@
 
 /* Theme preset styles: these override CSS variables based on the selected data-theme-preset */
 @import "../styles/presets/darkgreen.css";
-@import "../styles/presets/maroon.css";
 @import "../styles/presets/soft-pop.css";
 @import "../styles/presets/tangerine.css";
 
