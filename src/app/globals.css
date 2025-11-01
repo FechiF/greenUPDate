@@ -55,30 +55,30 @@ These serve as the fallback; there is no separate default.css file. */
   --radius: 0.625rem;
 
   --card: #ffffff;
-  --card-foreground: #5c7947;
+  --card-foreground: #425732;
 
   --popover: #ffffff;
   --popover-foreground: #5e563d;
 
-  --primary: #5c7947;
+  --primary: #425732;
   --primary-foreground: #f5f3ea;
 
   --secondary: #f5f3ea;
   --secondary-foreground: #7b1113;
 
   --muted: #f5f3ea;
-  --muted-foreground: #8a816b;
+  --muted-foreground: #565043;
 
   --accent: #ffd75f;
   --accent-foreground: #3e3f3f;
 
   --destructive: #e7000b;
 
-  --border: #e9dcbd;
+  --border: rgba(233, 220, 189, 0);
   --input: #d6c8a6;
   --ring: #334332;
 
-  --chart-1: #5c7947;
+  --chart-1: #425732;
   --chart-2: #7b1113;
   --chart-3: #ffd75f;
   --chart-4: #c4b487;
@@ -91,13 +91,13 @@ These serve as the fallback; there is no separate default.css file. */
   --chart-11: #acbe74;
   --chart-12: #665b63;
 
-  --sidebar: #5c7947;
+  --sidebar: #425732;
   --sidebar-foreground: #f5f3ea;
   --sidebar-primary: #f5f3ea;
   --sidebar-primary-foreground: #f5f3ea;
   --sidebar-accent: #b9d3a5;
   --sidebar-accent-foreground: #3e3f3f;
-  --sidebar-border: #5c7947;
+  --sidebar-border: #425732;
   --sidebar-ring: #fff;
 
   --background: #f5f3ea;
@@ -124,28 +124,28 @@ These serve as the fallback; there is no separate default.css file. */
   --popover: #37473b;
   --popover-foreground: #ffdfc8;
 
-  --primary: #5c7947;
+  --primary: #425732;
   --primary-foreground: #f5f3ea;
 
   --secondary: #ada48b;
   --secondary-foreground: #332f27;
 
   --muted: #332f27;
-  --muted-foreground: #b6ab8f;
+  --muted-foreground: #dfdacd;
 
   --accent: #ffd75f;
   --accent-foreground: #3e3f3f;
 
   --destructive: #fd525b;
 
-  --border: #665f50;
+  --border: rgba(102, 95, 80, 0);
   --input: #f5f3ea;
   --ring: #272824;
 
   --chart-1: #a09f67;
   --chart-2: #7b1113;
   --chart-3: #ffd75f;
-  --chart-4: #5c7947;
+  --chart-4: #425732;
   --chart-5: #84ac7a;
   --chart-7: #c4b487;
   --chart-6: #7b1113;
@@ -159,7 +159,7 @@ These serve as the fallback; there is no separate default.css file. */
   --sidebar-foreground: #b7c5b7;
   --sidebar-primary: #272824;
   --sidebar-primary-foreground: #b7c5b7;
-  --sidebar-accent: #5c7947;
+  --sidebar-accent: #425732;
   --sidebar-accent-foreground: #f5f3ea;
   --sidebar-border: #212622;
   --sidebar-ring: #fff;
